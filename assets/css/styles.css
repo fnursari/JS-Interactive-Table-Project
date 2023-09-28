@@ -1,0 +1,59 @@
+/* General styles for table */
+table.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Body styles */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Footer styles */
+tfoot {
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+.empty-row td {
+    color: #e74c3c;
+}
+
+/* Button and Icon styles */
+.btn-group-primary, .btn-group-secondary {
+    display: inline-flex;
+}
+
+.btn-link {
+    border: none;
+    background: none;
+    color: #3498db;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.fa-solid {
+    font-size: 16px;
+}
